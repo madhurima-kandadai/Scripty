@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripty.MsBuild", "Scripty.MsBuild\Scripty.MsBuild.csproj", "{02AA19AC-F899-4764-A8B8-D92AF080998D}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Scripty", "Cake.Scripty\Cake.Scripty.csproj", "{D7369930-CDB9-4BE8-B609-6E242D980251}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Scripty.Tests", "Cake.Scripty.Tests\Cake.Scripty.Tests.csproj", "{EDDB19BE-A3C4-4002-A2D2-DCC539448A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples.Tests", "Examples.Tests", "{CB611CC7-F7F4-4C3C-9AEF-47370BDD2F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripty.Examples.Console", "Scripty.Examples.Console\Scripty.Examples.Console.csproj", "{1CC2E57D-A5EE-4D72-B9EE-89112A1D6D01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,8 +55,15 @@ Global
 		{EDDB19BE-A3C4-4002-A2D2-DCC539448A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDDB19BE-A3C4-4002-A2D2-DCC539448A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDDB19BE-A3C4-4002-A2D2-DCC539448A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC2E57D-A5EE-4D72-B9EE-89112A1D6D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC2E57D-A5EE-4D72-B9EE-89112A1D6D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC2E57D-A5EE-4D72-B9EE-89112A1D6D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC2E57D-A5EE-4D72-B9EE-89112A1D6D01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CC2E57D-A5EE-4D72-B9EE-89112A1D6D01} = {CB611CC7-F7F4-4C3C-9AEF-47370BDD2F18}
 	EndGlobalSection
 EndGlobal
